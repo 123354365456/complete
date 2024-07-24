@@ -6,7 +6,7 @@
 
 *:focus {
   outline: none;
-  box-shadow: 0 0 0 0.6rem rgb(165, 230, 230);
+  box-shadow: 0 0 0 0.5rem rgb(165, 230, 230);
 }
 
 html {
@@ -646,7 +646,7 @@ select,
 .btn-form:hover,
 .btn-form:active {
   box-shadow: inset 0 0 1px 2px #535353;
-  background-color: rgb(182, 182, 182);
+  background-color: rgb(150, 150, 150);
   color: #433e43;
 }
 
@@ -658,26 +658,26 @@ select,
 }
 
 .footer-div {
-  padding: 4.8rem 7.2rem 4.8rem 7.2rem;
+  padding: 4.9rem 6.2rem 4.2rem 6.8rem;
   display: grid;
   grid-template-columns: 2.5fr 2.5fr 2fr 2fr;
-  max-width: 150rem;
-  gap: 2rem;
+  max-width: 160rem;
+  gap: 2.5rem;
 }
 
 .footer-div div {
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   color: #727272;
 }
 
 .footer-col {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 2.5rem;
 }
 
 .footer-logo {
-  width: 35%;
+  width: 36%;
   border-radius: 100%;
 }
 
@@ -690,7 +690,7 @@ select,
 .footer-link,
 .footer-link:link,
 .footer-link:visited {
-  font-size: 2.4rem;
+  font-size: 25rem;
   color: #727272;
   transition: all 0.3s;
 }
@@ -702,7 +702,7 @@ select,
 
 .copyright {
   font-size: 1.5rem;
-  margin-top: 0.6rem;
+  margin-top: 0.5rem;
 }
 
 .address-col {
@@ -710,15 +710,15 @@ select,
 }
 
 .footer-heading {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   font-weight: 500;
-  margin-bottom: 4.8rem;
+  margin-bottom: 4.5rem;
 }
 
 .footer-flex {
   display: flex;
   flex-direction: column;
-  gap: 2.4rem;
+  gap: 2.5rem;
 }
 .contact {
   list-style: none;
@@ -727,29 +727,29 @@ select,
 .contacts {
   display: flex;
   flex-direction: column;
-  gap: 1.2rem;
+  gap: 1.4rem;
 }
 
 .contacts a,
 .contacts a:link,
 .contacts a:visited {
   text-decoration: none;
-  color: #727272;
+  color: #7e7e7e;
 }
 
 .contacts a:hover,
 .contacts a:active {
-  color: #636363;
+  color: #7e7e7e;
 }
 
 .contact a,
 .contact a:link,
 .contact a:visited {
   text-decoration: none;
-  color: #727272;
+  color: #7e7e7e;
 }
 
 .contact a:hover,
 .contact a:active {
-  color: #636363;
+  color: #464646;
 }
